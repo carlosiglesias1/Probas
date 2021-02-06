@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="proyecto_division.DivisionTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="5" failures="2" name="proyecto_division.DivisionTest" time="0.021" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14+36-1461"/>
@@ -60,5 +60,27 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="proyecto_division.DivisionTest" name="proyecto_division.DivisionTest.testCalcularDivision" time="0.001"/>
+  <testcase classname="proyecto_division.DivisionTest" name="proyecto_division.DivisionTest.testDivisionNula" time="0.001"/>
+  <testcase classname="proyecto_division.DivisionTest" name="proyecto_division.DivisionTest.testDivisionNegativa" time="0.001"/>
+  <testcase classname="proyecto_division.DivisionTest" name="proyecto_division.DivisionTest.testDivisionCaracter" time="0.017">
+    <failure message="Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
+	at proyecto_division.DivisionTest.testDivisionCaracter(DivisionTest.java:74)
+</failure>
+    <system-out>calcularDivisionCaracter
+</system-out>
+  </testcase>
+  <testcase classname="proyecto_division.DivisionTest" name="proyecto_division.DivisionTest.testDivisorCaracter" time="0.002">
+    <failure message="Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
+	at proyecto_division.DivisionTest.testDivisorCaracter(DivisionTest.java:86)
+</failure>
+    <system-out>calcularDivisorCaracter
+</system-out>
+  </testcase>
+  <testcase classname="proyecto_division.DivisionTest" name="proyecto_division.DivisionTest.testDivisionPositiva" time="0"/>
 </testsuite>
