@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: proyecto_division.DivisionTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE!
+proyecto_division.DivisionTest.testDivisorCaracter()  Time elapsed: 0.01 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
+	at proyecto_division.DivisionTest.testDivisorCaracter(DivisionTest.java:86)
+
 proyecto_division.DivisionTest.testDivisionCaracter()  Time elapsed: 0 sec  <<< FAILURE!
 org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
 	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
 	at proyecto_division.DivisionTest.testDivisionCaracter(DivisionTest.java:74)
-
-proyecto_division.DivisionTest.testDivisorCaracter()  Time elapsed: 0.007 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
-	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
-	at proyecto_division.DivisionTest.testDivisorCaracter(DivisionTest.java:86)
 

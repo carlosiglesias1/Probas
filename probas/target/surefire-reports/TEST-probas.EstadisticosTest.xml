@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="probas.EstadisticosTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="probas.EstadisticosTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14+36-1461"/>
@@ -59,8 +59,8 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="probas.EstadisticosTest" name="probas.EstadisticosTest.testCombinaciones" time="0.002"/>
-  <testcase classname="probas.EstadisticosTest" name="probas.EstadisticosTest.testVariaciones" time="0"/>
+  <testcase classname="probas.EstadisticosTest" name="probas.EstadisticosTest.testCombinaciones" time="0.001"/>
   <testcase classname="probas.EstadisticosTest" name="probas.EstadisticosTest.testFactorial" time="0"/>
   <testcase classname="probas.EstadisticosTest" name="probas.EstadisticosTest.testVariac_repet" time="0"/>
+  <testcase classname="probas.EstadisticosTest" name="probas.EstadisticosTest.testVariaciones" time="0"/>
 </testsuite>
