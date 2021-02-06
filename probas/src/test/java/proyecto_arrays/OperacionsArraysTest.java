@@ -49,9 +49,8 @@ public class OperacionsArraysTest {
     }
 
     @Test
-
     public void CadenaSinLetra () {
-        System.out.println("Letra en una cadena ordenada");
+        System.out.println("Letra que no está en una cadena ordenada");
         char letra = 'z';
         char [] cadena = {'a','b', 'c', 'd', 'e', 'f'};
         OperacionsArrays instance = new OperacionsArrays ();
@@ -59,4 +58,16 @@ public class OperacionsArraysTest {
         boolean expResult = false;
         assertEquals(expResult, result);
     }
+
+    @Test
+    public void CadenaDesordenada () {
+        System.out.println("Letra que está en una cadena desordenada");
+        char letra = 'a';
+        char [] cadena = {'z','a', 'b', 'c', 'd'};
+        OperacionsArrays instance = new OperacionsArrays ();
+        boolean result = instance.busca(letra,cadena);
+        boolean expResult = false;
+        assertEquals(expResult, result);
+    }
+
 }
