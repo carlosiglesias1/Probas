@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="proyecto_division.DivisionTest" time="0.02" tests="5" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="proyecto_division.DivisionTest" time="0.008" tests="5" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14+36-1461"/>
@@ -14,7 +14,6 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="proyecto_division.DivisionTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\carlo\Desktop\DAM1\CD\Tema3\Probas\probas"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -44,7 +43,7 @@
     <property name="java.class.path" value="E:\Program Files (x86)\NetBeans-12.2\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=proyecto_division.DivisionTest -Dmaven.ext.class.path=E:\Program Files (x86)\NetBeans-12.2\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test-compile surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=E:\Program Files (x86)\NetBeans-12.2\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
     <property name="java.home" value="C:\Jdk&apos;s\jdk-14"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -59,19 +58,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="proyecto_division.DivisionTest.testDivisionPositiva" classname="proyecto_division.DivisionTest" time="0.001"/>
-  <testcase name="proyecto_division.DivisionTest.testDivisionNegativa" classname="proyecto_division.DivisionTest" time="0.001"/>
-  <testcase name="proyecto_division.DivisionTest.testDivisionCaracter" classname="proyecto_division.DivisionTest" time="0.018">
-    <failure message="Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
-	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
-	at proyecto_division.DivisionTest.testDivisionCaracter(DivisionTest.java:73)
-</failure>
-    <system-out><![CDATA[calcularDivisionCaracter
-]]></system-out>
-  </testcase>
-  <testcase name="proyecto_division.DivisionTest.testDivisorCaracter" classname="proyecto_division.DivisionTest" time="0">
+  <testcase name="proyecto_division.DivisionTest.testDivisorCaracter" classname="proyecto_division.DivisionTest" time="0.007">
     <failure message="Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
@@ -81,5 +68,17 @@
     <system-out><![CDATA[calcularDivisorCaracter
 ]]></system-out>
   </testcase>
+  <testcase name="proyecto_division.DivisionTest.testDivisionCaracter" classname="proyecto_division.DivisionTest" time="0.001">
+    <failure message="Expected java.lang.Exception to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
+	at proyecto_division.DivisionTest.testDivisionCaracter(DivisionTest.java:73)
+</failure>
+    <system-out><![CDATA[calcularDivisionCaracter
+]]></system-out>
+  </testcase>
+  <testcase name="proyecto_division.DivisionTest.testDivisionPositiva" classname="proyecto_division.DivisionTest" time="0"/>
+  <testcase name="proyecto_division.DivisionTest.testDivisionNegativa" classname="proyecto_division.DivisionTest" time="0"/>
   <testcase name="proyecto_division.DivisionTest.testDivisionNula" classname="proyecto_division.DivisionTest" time="0"/>
 </testsuite>

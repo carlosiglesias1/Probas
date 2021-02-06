@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: proyecto_division.DivisionTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE! - in proyecto_division.DivisionTest
-proyecto_division.DivisionTest.testDivisionCaracter()  Time elapsed: 0.018 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
-	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
-	at proyecto_division.DivisionTest.testDivisionCaracter(DivisionTest.java:73)
-
-proyecto_division.DivisionTest.testDivisorCaracter()  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE! - in proyecto_division.DivisionTest
+proyecto_division.DivisionTest.testDivisorCaracter()  Time elapsed: 0.007 sec  <<< FAILURE!
 org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
 	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
 	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
 	at proyecto_division.DivisionTest.testDivisorCaracter(DivisionTest.java:85)
+
+proyecto_division.DivisionTest.testDivisionCaracter()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.Exception to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:71)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3007)
+	at proyecto_division.DivisionTest.testDivisionCaracter(DivisionTest.java:73)
 
