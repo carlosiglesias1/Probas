@@ -47,4 +47,16 @@ public class OperacionsArraysTest {
         boolean expResult = true;
         assertEquals(expResult, result);        
     }
+
+    @Test
+
+    public void CadenaSinLetra () {
+        System.out.println("Letra en una cadena ordenada");
+        char letra = 'z';
+        char [] cadena = {'a','b', 'c', 'd', 'e', 'f'};
+        OperacionsArrays instance = new OperacionsArrays ();
+        boolean result = instance.busca(letra,cadena);
+        boolean expResult = false;
+        assertEquals(expResult, result);
+    }
 }
