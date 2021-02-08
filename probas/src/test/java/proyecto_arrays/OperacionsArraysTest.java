@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package proyecto_arrays;
 
 import org.junit.jupiter.api.AfterEach;
@@ -14,10 +10,7 @@ import org.junit.jupiter.api.function.Executable;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- *
- * @author carlo
- */
+
 public class OperacionsArraysTest {
     
     public OperacionsArraysTest() {
