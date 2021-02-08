@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.print("\nCALCULOS ESTADÍSTICOS\n");
+        System.out.println("\nCALCULOS ESTADÍSTICOS\n");
         Scanner teclado = new Scanner(System.in);
         boolean error;
         int m, n;
